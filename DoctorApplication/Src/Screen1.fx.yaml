@@ -42,7 +42,8 @@ Screen1 As screen:
 
             DataCardValue7 As text:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                Default: =LookUp(tbl_Presciptions,ExtractedTet=ExtractedTet).ExtractedTet
+                Default: |
+                    =LookUp(tbl_Presciptions,ExtractedTet=ExtractedTet).ExtractedTet
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
                 Height: =237

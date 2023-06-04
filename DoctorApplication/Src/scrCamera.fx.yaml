@@ -35,7 +35,7 @@ scrCamera As screen:
             =Set(varimg,camVideo.Photo);
             AzureBlobStorage.CreateFile("imgprescriptionstorage",TextInput1.Text & ".jpg",varimg);
             ImagesReaderFlow.Run(varimg);
-            PowerAppsForAutomate.Run("ImagesReaderFlow", { varimg: varimg })
+            
             
         Size: =25
         Text: ="Upload"
