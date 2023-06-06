@@ -24,9 +24,13 @@ scrCamera As screen:
         Height: =72
         OnSelect: |+
             =Set(varimg,camVideo.Photo);
-            AzureBlobStorage.CreateFile("imgprescriptionstorage",TextInput1.Text & ".jpg",varimg);
+            initializevariable.Run(varimg);
+            
+            
+            //AzureBlobStorage.CreateFile("imgprescriptionstorage",TextInput1.Text & ".jpg",varimg);
+            
             //ImagesReaderFlow.Run();
-            //PowerAppsForAutomate.Run("ImagesReaderFlow", { varimg: varimg })
+            //PowerAutomate("ImagesReaderFlow", { varimg: varimg })
             
         Size: =25
         Text: ="Upload"

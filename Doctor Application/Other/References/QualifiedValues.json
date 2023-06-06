@@ -6,6 +6,13 @@
       "Values": {
         "Information": "bf9786cd-e70a-4831-9c0a-e110d5d88570"
       }
+    },
+    {
+      "Kind": "default.cds_crdce_tbl_detail_forms",
+      "Namespace": "tbl_Details (Forms)",
+      "Values": {
+        "Information": "30a0d84c-d53b-48a1-b810-b6e88399126e"
+      }
     }
   ]
 }
