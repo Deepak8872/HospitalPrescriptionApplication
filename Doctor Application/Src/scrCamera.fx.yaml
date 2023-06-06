@@ -12,11 +12,11 @@ scrCamera As screen:
         ZIndex: =1
 
     imgVideoImage As image:
-        Height: =340
+        Height: =272
         Image: =camVideo.Photo
-        Width: =440
-        X: =848
-        Y: =122
+        Width: =482
+        X: =806
+        Y: =75
         ZIndex: =12
 
     Button1 As button:
@@ -26,69 +26,25 @@ scrCamera As screen:
             =Set(varimg,camVideo.Photo);
             initializevariable.Run(varimg);
             
+            AzureBlobStorage.CreateFile("imgprescriptionstorage", "Capture_" & Text(Now(),"[$-en-US]mmddyyyhhmmss") & ".jpg",varimg);
             
             //AzureBlobStorage.CreateFile("imgprescriptionstorage",TextInput1.Text & ".jpg",varimg);
-            
             //ImagesReaderFlow.Run();
             //PowerAutomate("ImagesReaderFlow", { varimg: varimg })
             
         Size: =25
-        Text: ="Upload"
+        Text: ="save"
         Width: =464
-        X: =836
-        Y: =597
+        X: =824
+        Y: =425
         ZIndex: =13
-
-    btnClick As group:
-        Height: =5
-        Width: =5
-        X: =40
-        Y: =40
-        ZIndex: =13
-
-        Circle1 As circle:
-            Fill: =RGBA(151, 0, 0, 1)
-            Height: =102
-            Width: =142
-            X: =426
-            Y: =585
-            ZIndex: =5
-
-        IcoCamera As icon.Camera:
-            Color: =RGBA(241, 244, 249, 1)
-            Height: =77
-            Icon: =Icon.Camera
-            Width: =101
-            X: =446
-            Y: =598
-            ZIndex: =6
-
-        btnCamera As rectangle:
-            Fill: =RGBA(0, 0, 0, 0)
-            Height: =119
-            OnSelect: |
-                =locImageCaptured= camVideo.Photo
-                //Set(imagesfile ,"capture_" & Text(Now(),"[$-en-us]mmddyyyhhmmss") & ".png");
-                //Navigate(Capture)
-            Width: =146
-            X: =432
-            Y: =568
-            ZIndex: =10
-
-    TextInput1 As text:
-        Default: =""
-        Height: =61
-        Width: =463
-        X: =848
-        Y: =513
-        ZIndex: =15
 
     TextInput2 As text:
         Default: =
-        Height: =74
-        Width: =149
-        X: =234
-        Y: =611
+        Height: =166
+        Width: =391
+        X: =879
+        Y: =516
         ZIndex: =16
 
     ApplicationHeader_1 As ApplicationHeader:

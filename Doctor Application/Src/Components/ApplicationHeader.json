@@ -103,7 +103,7 @@
         "Name": "Label2",
         "Parent": "ApplicationHeader",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 15,
+        "PublishOrderIndex": 14,
         "Rules": [
           {
             "Category": "Data",
