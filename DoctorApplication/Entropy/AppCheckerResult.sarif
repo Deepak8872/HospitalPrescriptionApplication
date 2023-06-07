@@ -10,7 +10,7 @@
             {
               "associatedRule": {
                 "id": "app-InefficientDelayLoading",
-                "index": 5
+                "index": 4
               },
               "descriptor": {
                 "id": "app-InefficientDelayLoading"
@@ -22,7 +22,7 @@
             {
               "associatedRule": {
                 "id": "app-InefficientDelayLoading",
-                "index": 5
+                "index": 4
               },
               "descriptor": {
                 "id": "app-InefficientDelayLoading"
@@ -34,7 +34,7 @@
             {
               "associatedRule": {
                 "id": "app-InefficientDelayLoading",
-                "index": 5
+                "index": 4
               },
               "descriptor": {
                 "id": "app-InefficientDelayLoading"
@@ -46,7 +46,7 @@
             {
               "associatedRule": {
                 "id": "app-InefficientDelayLoading",
-                "index": 5
+                "index": 4
               },
               "descriptor": {
                 "id": "app-InefficientDelayLoading"
@@ -58,7 +58,7 @@
             {
               "associatedRule": {
                 "id": "app-InefficientDelayLoading",
-                "index": 5
+                "index": 4
               },
               "descriptor": {
                 "id": "app-InefficientDelayLoading"
@@ -70,7 +70,7 @@
             {
               "associatedRule": {
                 "id": "app-InefficientDelayLoading",
-                "index": 5
+                "index": 4
               },
               "descriptor": {
                 "id": "app-InefficientDelayLoading"
@@ -82,7 +82,7 @@
             {
               "associatedRule": {
                 "id": "app-InefficientDelayLoading",
-                "index": 5
+                "index": 4
               },
               "descriptor": {
                 "id": "app-InefficientDelayLoading"
@@ -94,7 +94,7 @@
             {
               "associatedRule": {
                 "id": "app-InefficientDelayLoading",
-                "index": 5
+                "index": 4
               },
               "descriptor": {
                 "id": "app-InefficientDelayLoading"
@@ -106,7 +106,7 @@
             {
               "associatedRule": {
                 "id": "app-InefficientDelayLoading",
-                "index": 5
+                "index": 4
               },
               "descriptor": {
                 "id": "app-InefficientDelayLoading"
@@ -118,7 +118,7 @@
             {
               "associatedRule": {
                 "id": "app-InefficientDelayLoading",
-                "index": 5
+                "index": 4
               },
               "descriptor": {
                 "id": "app-InefficientDelayLoading"
@@ -130,7 +130,7 @@
             {
               "associatedRule": {
                 "id": "app-InefficientDelayLoading",
-                "index": 5
+                "index": 4
               },
               "descriptor": {
                 "id": "app-InefficientDelayLoading"
@@ -142,7 +142,7 @@
             {
               "associatedRule": {
                 "id": "app-InefficientDelayLoading",
-                "index": 5
+                "index": 4
               },
               "descriptor": {
                 "id": "app-InefficientDelayLoading"
@@ -154,7 +154,7 @@
             {
               "associatedRule": {
                 "id": "app-InefficientDelayLoading",
-                "index": 5
+                "index": 4
               },
               "descriptor": {
                 "id": "app-InefficientDelayLoading"
@@ -166,7 +166,7 @@
             {
               "associatedRule": {
                 "id": "app-InefficientDelayLoading",
-                "index": 5
+                "index": 4
               },
               "descriptor": {
                 "id": "app-InefficientDelayLoading"
@@ -178,7 +178,7 @@
             {
               "associatedRule": {
                 "id": "app-InefficientDelayLoading",
-                "index": 5
+                "index": 4
               },
               "descriptor": {
                 "id": "app-InefficientDelayLoading"
@@ -190,7 +190,7 @@
             {
               "associatedRule": {
                 "id": "app-InefficientDelayLoading",
-                "index": 5
+                "index": 4
               },
               "descriptor": {
                 "id": "app-InefficientDelayLoading"
@@ -202,7 +202,7 @@
             {
               "associatedRule": {
                 "id": "app-InefficientDelayLoading",
-                "index": 5
+                "index": 4
               },
               "descriptor": {
                 "id": "app-InefficientDelayLoading"
@@ -214,7 +214,7 @@
             {
               "associatedRule": {
                 "id": "app-InefficientDelayLoading",
-                "index": 5
+                "index": 4
               },
               "descriptor": {
                 "id": "app-InefficientDelayLoading"
@@ -226,7 +226,7 @@
             {
               "associatedRule": {
                 "id": "app-InefficientDelayLoading",
-                "index": 5
+                "index": 4
               },
               "descriptor": {
                 "id": "app-InefficientDelayLoading"
@@ -238,7 +238,7 @@
             {
               "associatedRule": {
                 "id": "app-InefficientDelayLoading",
-                "index": 5
+                "index": 4
               },
               "descriptor": {
                 "id": "app-InefficientDelayLoading"
@@ -250,7 +250,7 @@
             {
               "associatedRule": {
                 "id": "app-InefficientDelayLoading",
-                "index": 5
+                "index": 4
               },
               "descriptor": {
                 "id": "app-InefficientDelayLoading"
@@ -262,7 +262,7 @@
             {
               "associatedRule": {
                 "id": "app-InefficientDelayLoading",
-                "index": 5
+                "index": 4
               },
               "descriptor": {
                 "id": "app-InefficientDelayLoading"
@@ -274,7 +274,7 @@
             {
               "associatedRule": {
                 "id": "app-InefficientDelayLoading",
-                "index": 5
+                "index": 4
               },
               "descriptor": {
                 "id": "app-InefficientDelayLoading"
@@ -286,7 +286,31 @@
             {
               "associatedRule": {
                 "id": "app-InefficientDelayLoading",
-                "index": 5
+                "index": 4
+              },
+              "descriptor": {
+                "id": "app-InefficientDelayLoading"
+              },
+              "message": {
+                "text": "Error occurred running rule app-InefficientDelayLoading."
+              }
+            },
+            {
+              "associatedRule": {
+                "id": "app-InefficientDelayLoading",
+                "index": 4
+              },
+              "descriptor": {
+                "id": "app-InefficientDelayLoading"
+              },
+              "message": {
+                "text": "Error occurred running rule app-InefficientDelayLoading."
+              }
+            },
+            {
+              "associatedRule": {
+                "id": "app-InefficientDelayLoading",
+                "index": 4
               },
               "descriptor": {
                 "id": "app-InefficientDelayLoading"
@@ -543,17 +567,17 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "App.TextReader"
+                  "fullyQualifiedName": "App.43b0dc67-68af-47ae-9a9c-9e69d396ba3e"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "App.TextReader",
+                  "fullyQualifiedName": "App.43b0dc67-68af-47ae-9a9c-9e69d396ba3e",
                   "relativeAddress": 0
                 }
               },
               "properties": {
-                "member": "TextReader",
+                "member": "43b0dc67-68af-47ae-9a9c-9e69d396ba3e",
                 "module": "App",
                 "type": "App"
               }
@@ -565,8 +589,8 @@
           "properties": {
             "level": "Medium"
           },
-          "ruleId": "app-NotOfflineConnectors",
-          "ruleIndex": 4
+          "ruleId": "app-NotOfflineEnabledTable",
+          "ruleIndex": 3
         }
       ],
       "tool": {
@@ -636,23 +660,6 @@
                 "componentType": "app",
                 "howToFix": [
                   "In the 'Advanced options' section for your table's Properties, set 'Enable for offline' to be on."
-                ],
-                "level": "Medium",
-                "primaryCategory": "offline",
-                "whyFix": null
-              }
-            },
-            {
-              "id": "app-NotOfflineConnectors",
-              "messageStrings": {
-                "issue": {
-                  "text": "Using a non Dataverse data source."
-                }
-              },
-              "properties": {
-                "componentType": "app",
-                "howToFix": [
-                  "Turn off the offline enabled parameter in the app general settings or use only Dataverse connector."
                 ],
                 "level": "Medium",
                 "primaryCategory": "offline",
