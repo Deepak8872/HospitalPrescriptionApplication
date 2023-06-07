@@ -99,7 +99,7 @@
         "Name": "icontop",
         "Parent": "ApplicationLeftMenu",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 13,
+        "PublishOrderIndex": 11,
         "Rules": [
           {
             "Category": "Design",
@@ -308,7 +308,7 @@
             "Name": "galleryTemplate2",
             "Parent": "gallerynav",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 15,
+            "PublishOrderIndex": 13,
             "Rules": [
               {
                 "Category": "Design",
@@ -449,7 +449,7 @@
             "Name": "Navicon",
             "Parent": "gallerynav",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 16,
+            "PublishOrderIndex": 14,
             "Rules": [
               {
                 "Category": "Design",
@@ -736,7 +736,7 @@
             "Name": "Title",
             "Parent": "gallerynav",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 17,
+            "PublishOrderIndex": 15,
             "Rules": [
               {
                 "Category": "Data",
@@ -1071,7 +1071,7 @@
         "Name": "gallerynav",
         "Parent": "ApplicationLeftMenu",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 14,
+        "PublishOrderIndex": 12,
         "Rules": [
           {
             "Category": "Data",

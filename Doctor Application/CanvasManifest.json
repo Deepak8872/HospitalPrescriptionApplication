@@ -131,6 +131,6 @@
   },
   "ScreenOrder": [
     "scrCamera",
-    "Screen1"
+    "ScrModelDriven"
   ]
 }

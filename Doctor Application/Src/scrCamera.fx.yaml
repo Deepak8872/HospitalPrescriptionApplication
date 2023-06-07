@@ -43,8 +43,8 @@ scrCamera As screen:
         Default: =FlowData.extractedtext1
         Height: =166
         Width: =488
-        X: =513
-        Y: =537
+        X: =575
+        Y: =506
         ZIndex: =16
 
     ApplicationHeader_1 As ApplicationHeader:
