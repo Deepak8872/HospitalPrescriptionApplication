@@ -1293,7 +1293,7 @@
         "NameMapSourceSchema": "?"
       }
     ],
-    "LastModifiedTimestamp": "638217228598691826",
+    "LastModifiedTimestamp": "638217237659266139",
     "Name": "ApplicationLeftMenu",
     "Rules": [
       {
@@ -1383,7 +1383,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638217228598691826",
+  "LastModifiedTimestamp": "638217237659266139",
   "Name": "412fd991b76c4cb78767cd40b3f4cac6",
   "OverridableProperties": {},
   "TemplateOriginalName": "063eb1a4c0b64b0182cfadf76fdf513f",

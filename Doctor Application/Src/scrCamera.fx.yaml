@@ -7,7 +7,7 @@ scrCamera As screen:
         Camera: =0
         Height: =438
         Width: =572
-        X: =93
+        X: =137
         Y: =51
         ZIndex: =1
 
@@ -51,6 +51,25 @@ scrCamera As screen:
         ZIndex: =17
 
     Comp_left_menu_1 As ApplicationLeftMenu:
+        Navitems: |-
+            =Table(
+                {
+                    Title:"Home",
+                    Screen:scrCamera,
+                    Icon:  Icon.Home
+                },
+                 {
+                    Title:"Admin",
+                    Screen:App.ActiveScreen,
+                    Icon:  Icon.AddUser
+                },
+                 {
+                    Title:"Gallery",
+                    Screen:App.ActiveScreen,
+                    Icon:  Icon.Items
+                }
+            )
+                
         Width: =Comp_left_menu_1.menuWidth
         Y: =51
         ZIndex: =18

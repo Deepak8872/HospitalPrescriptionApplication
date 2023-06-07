@@ -10,7 +10,8 @@
     "Comp_Section": 5,
     "Component1": 8,
     "Component2": 3,
-    "Component3": 9
+    "Component3": 9,
+    "Component4": 10
   },
   "ControlUniqueGuids": {},
   "ControlUniqueIds": {
@@ -30,6 +31,7 @@
     "Component1": 17,
     "Component2": 4,
     "Component3": 18,
+    "Component4": 36,
     "gallerynav": 11,
     "galleryTemplate2": 12,
     "Host": 3,
@@ -48,10 +50,10 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "06/07/2023 08:33:19",
+  "HeaderLastSavedDateTimeUTC": "06/07/2023 08:36:45",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
-    "629ff4de-72ca-4f01-a534-9d571c605c1e": "\"/providers/Microsoft.PowerApps/apis/shared_logicflows/connections/1E00CCB4708146298DE02A6D95C3572E-8AC9CDF357D3E273\"",
+    "629ff4de-72ca-4f01-a534-9d571c605c1e": "\"/providers/microsoft.powerapps/apis/shared_logicflows/connections/1e00ccb4708146298de02a6d95c3572e-8ac9cdf357d3e273\"",
     "a32d5a23-e040-4249-97a5-74ef03444dbd": "\"/providers/microsoft.powerapps/apis/shared_azureblob/connections/e1e33d4a29184b65aa5ab889b6e24bff\""
   },
   "LocalDatabaseReferencesAsEmpty": false,
@@ -73,6 +75,7 @@
     "4a83cabd26b94d07952c3877773e8e83": 7,
     "51d902ef257f4063bc825b243e7ce937": 2,
     "58eae950ac0e4291a8be49abecb47e24": 6,
+    "ad2f3f9184a24424af70f355f7b77f55": 8,
     "cb8ce300b3cf4951bdd5d8b2d5e1daca": 0
   },
   "OrderComponentTemplate": {
@@ -83,6 +86,7 @@
     "4a83cabd26b94d07952c3877773e8e83": 7,
     "51d902ef257f4063bc825b243e7ce937": 2,
     "58eae950ac0e4291a8be49abecb47e24": 6,
+    "ad2f3f9184a24424af70f355f7b77f55": 8,
     "cb8ce300b3cf4951bdd5d8b2d5e1daca": 0
   },
   "OrderDataSource": {
@@ -123,6 +127,7 @@
     "Component1": {},
     "Component2": {},
     "Component3": {},
+    "Component4": {},
     "gallerynav": {},
     "galleryTemplate2": {},
     "Host": {},
@@ -158,6 +163,7 @@
     "Component1": 0,
     "Component2": 0,
     "Component3": 0,
+    "Component4": 0,
     "gallerynav": 14,
     "galleryTemplate2": 15,
     "Host": 0,
