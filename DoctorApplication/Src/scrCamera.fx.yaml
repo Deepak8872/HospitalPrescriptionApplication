@@ -21,20 +21,11 @@ scrCamera As screen:
         Width: =1366
         ZIndex: =11
 
-    imgVideoImage As image:
-        Height: =340
-        Image: =Camera_SpeedingCamera.Photo
-        OnSelect: =
-        Width: =626
-        X: =696
-        Y: =122
-        ZIndex: =12
-
     Button1 As button:
         Fill: =RGBA(54, 176, 75, 1)
         Height: =72
         OnSelect: |+
-            =//TextReader.Run("RecognizetextinanimageoraPDFdocument_Image", imgVideoImage);
+            =TextReader.Run("", Image1)
             //Set(varimg,Camera_SpeedingCamera.Photo);
             //AzureBlobStorage.CreateFile("imgprescriptionstorage",TextInput1.Text & ".jpg",varimg);
             //ImagesReaderFlow.Run(varimg);
@@ -56,25 +47,10 @@ scrCamera As screen:
         ZIndex: =15
 
     Image1 As image:
-        Height: =158
+        Height: =362
         Image: ='agile modle'
-        Width: =228
-        X: =96
-        Y: =608
+        Width: =489
+        X: =740
+        Y: =136
         ZIndex: =16
-
-    TextRecognizer1 As TextRecognizer:
-        BorderColor: =RGBA(210, 208, 206, 1)
-        BorderStyle: =BorderStyle.Solid
-        DisabledBorderColor: =RGBA(166, 166, 166, 1)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        DisabledFill: =RGBA(244, 244, 244, 1)
-        DisplayMode: =DisplayMode.Edit
-        FillColor: =RGBA(61, 95, 174, 1)
-        FontColor: =RGBA(255, 255, 255, 1)
-        Height: =500
-        Width: =350
-        X: =544
-        Y: =244
-        ZIndex: =17
 
