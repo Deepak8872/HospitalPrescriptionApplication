@@ -1,7 +1,7 @@
 {
   "DatasetName": "default.cds",
   "EntityName": "tbl_Presciptions",
-  "InstanceUrl": "https://org28a7ffd0.crm8.dynamics.com/",
+  "InstanceUrl": "https://org3347c055.crm5.dynamics.com/",
   "LocalReferenceDSJson": {
     "entitySetName": "crdce_tbl_presciptionses",
     "logicalName": "crdce_tbl_presciptions"
