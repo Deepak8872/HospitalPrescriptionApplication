@@ -1,16 +1,16 @@
-<application xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:service="https://asia-001.azure-apim.net/apim/logicflows" xmlns:siena="http://schemas.microsoft.com/MicrosoftProjectSiena/WADL/2014/11" siena:serviceId="TextReader" xmlns="http://wadl.dev.java.net/2009/02">
-  <doc title="TextReader" />
+<application xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:service="https://asia-001.azure-apim.net/apim/logicflows" xmlns:siena="http://schemas.microsoft.com/MicrosoftProjectSiena/WADL/2014/11" siena:serviceId="NewWorkFlow" xmlns="http://wadl.dev.java.net/2009/02">
+  <doc title="NewWorkFlow" />
   <grammars>
     <jsonTypes targetNamespace="https://asia-001.azure-apim.net/apim/logicflows" xmlns="http://schemas.microsoft.com/MicrosoftProjectSiena/WADL/2014/11">
       <base64Binary name="ManualTriggerInput_RecognizetextinanimageoraPDFdocument_Image_def" />
-      <string name="ManualTriggerInput_Initializevariable_Value_def" />
+      <string name="ManualTriggerInput_RecognizetextinanimageoraPDFdocument_Image_1_def" />
       <object name="ManualTriggerInput">
         <property name="RecognizetextinanimageoraPDFdocument_Image" typeRef="ManualTriggerInput_RecognizetextinanimageoraPDFdocument_Image_def" />
-        <property name="Initializevariable_Value" type="string" />
+        <property name="RecognizetextinanimageoraPDFdocument_Image_1" type="string" />
       </object>
-      <string name="ResponseActionOutput_speedingnumber_def" />
+      <string name="ResponseActionOutput_ddfded_def" />
       <object name="ResponseActionOutput">
-        <property name="speedingnumber" type="string" />
+        <property name="ddfded" type="string" />
       </object>
       <object name="Run_responses_default_def" />
     </jsonTypes>
@@ -26,7 +26,7 @@
           </param>
           <representation mediaType="application/json">
             <param style="plain" name="RecognizetextinanimageoraPDFdocument_Image" path="/RecognizetextinanimageoraPDFdocument_Image" type="service:ManualTriggerInput_RecognizetextinanimageoraPDFdocument_Image_def" required="true" />
-            <param style="plain" name="Initializevariable_Value" path="/Initializevariable_Value" type="xs:string" required="true" />
+            <param style="plain" name="RecognizetextinanimageoraPDFdocument_Image_1" path="/RecognizetextinanimageoraPDFdocument_Image_1" type="xs:string" required="true" />
           </representation>
         </request>
         <response>

@@ -294,6 +294,30 @@
               "message": {
                 "text": "Error occurred running rule app-InefficientDelayLoading."
               }
+            },
+            {
+              "associatedRule": {
+                "id": "app-InefficientDelayLoading",
+                "index": 5
+              },
+              "descriptor": {
+                "id": "app-InefficientDelayLoading"
+              },
+              "message": {
+                "text": "Error occurred running rule app-InefficientDelayLoading."
+              }
+            },
+            {
+              "associatedRule": {
+                "id": "app-InefficientDelayLoading",
+                "index": 5
+              },
+              "descriptor": {
+                "id": "app-InefficientDelayLoading"
+              },
+              "message": {
+                "text": "Error occurred running rule app-InefficientDelayLoading."
+              }
             }
           ]
         }
@@ -543,17 +567,17 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "App.TextReader"
+                  "fullyQualifiedName": "App.NewWorkFlow"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "App.TextReader",
+                  "fullyQualifiedName": "App.NewWorkFlow",
                   "relativeAddress": 0
                 }
               },
               "properties": {
-                "member": "TextReader",
+                "member": "NewWorkFlow",
                 "module": "App",
                 "type": "App"
               }
