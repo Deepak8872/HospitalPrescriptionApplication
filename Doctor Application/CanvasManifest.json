@@ -6,7 +6,7 @@
     "MSAppStructureVersion": "2.0"
   },
   "Properties": {
-    "AppCreationSource": "AppFromScratch",
+    "AppCreationSource": "Unknown",
     "AppDescription": "",
     "AppPreviewFlagsMap": {
       "aibuilderserviceenrollment": false,
@@ -21,9 +21,9 @@
       "cdsdataformatting": false,
       "classiccontrols": false,
       "consistentreturnschemafortabularfunctions": true,
-      "copyandmerge": true,
+      "copyandmerge": false,
       "datatablev2control": true,
-      "dataverseactionsenabled": true,
+      "dataverseactionsenabled": false,
       "delaycontrolrendering": true,
       "delayloadscreens": true,
       "disablecdsfileandlargeimage": false,
@@ -44,7 +44,7 @@
       "enablepcfmoderndatasets": true,
       "enablepowerautomatepane": true,
       "enablerowscopeonetonexpand": false,
-      "enablerpawarecomponentdependency": true,
+      "enablerpawarecomponentdependency": false,
       "enablerulespanel": false,
       "enableruntimepolicies": false,
       "enablesaveloadcleardataonweb": false,
@@ -95,7 +95,7 @@
       "useguiddatatypes": true,
       "usenonblockingonstartrule": true,
       "webbarcodescanner": false,
-      "zeroalltabindexes": false
+      "zeroalltabindexes": true
     },
     "Author": "",
     "BindingErrorCount": 0,
@@ -110,16 +110,17 @@
     "DocumentLayoutWidth": 1366,
     "DocumentType": "App",
     "EnableInstrumentation": false,
-    "FileID": "1bcfea2a-602c-473e-b803-e5909ab037ab",
-    "Id": "3ece3e9e-cdd2-45b4-a842-2473ac8c07fb",
+    "FileID": "44af5a66-5624-4653-8ed2-b43a2c3b5bce",
+    "Id": "44af5a66-5624-4653-8ed2-b43a2c3b5bce",
     "InstrumentationKey": "",
-    "ManualOfflineProfileId": "",
-    "Name": "HospitalPrescription",
-    "OriginatingVersion": "1.331",
+    "LocalDatabaseReferences": "",
+    "ManualOfflineProfileId": null,
+    "Name": "App",
+    "OriginatingVersion": "1.332",
     "ParserErrorCount": 0
   },
   "PublishInfo": {
-    "AppName": "HospitalPrescription",
+    "AppName": "App",
     "BackgroundColor": "RGBA(0,176,240,1)",
     "IconColor": "RGBA(255,255,255,1)",
     "IconName": "Edit",
@@ -130,7 +131,6 @@
     "UserLocale": "en-US"
   },
   "ScreenOrder": [
-    "scrCamera",
-    "ScrModelDriven"
+    "Screen1"
   ]
 }
