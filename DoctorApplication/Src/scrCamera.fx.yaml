@@ -25,14 +25,14 @@ scrCamera As screen:
         Fill: =RGBA(54, 176, 75, 1)
         Height: =72
         OnSelect: |+
-            =TextReader.Run("", Image1)
+            =TextReader.Run(Image1, TextInput1)
             //Set(varimg,Camera_SpeedingCamera.Photo);
             //AzureBlobStorage.CreateFile("imgprescriptionstorage",TextInput1.Text & ".jpg",varimg);
             //ImagesReaderFlow.Run(varimg);
             
             
         Size: =25
-        Text: ="Upload"
+        Text: ="Text Upload"
         Width: =570
         X: =696
         Y: =565
