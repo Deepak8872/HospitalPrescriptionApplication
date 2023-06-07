@@ -5,18 +5,18 @@ scrCamera As screen:
 
     camVideo As camera:
         Camera: =0
-        Height: =438
-        Width: =572
+        Height: =395
+        Width: =524
         X: =137
         Y: =51
         ZIndex: =1
 
     imgVideoImage As image:
-        Height: =222
+        Height: =395
         Image: =camVideo.Photo
-        Width: =260
-        X: =741
-        Y: =81
+        Width: =529
+        X: =731
+        Y: =51
         ZIndex: =12
 
     Button1 As button:
@@ -35,16 +35,16 @@ scrCamera As screen:
         Size: =25
         Text: ="save"
         Width: =464
-        X: =824
-        Y: =391
+        X: =137
+        Y: =635
         ZIndex: =13
 
     txtShow As text:
         Default: =FlowData.extractedtext1
-        Height: =166
-        Width: =488
-        X: =576
-        Y: =537
+        Height: =153
+        Width: =1141
+        X: =137
+        Y: =472
         ZIndex: =16
 
     ApplicationHeader_1 As ApplicationHeader:
@@ -77,6 +77,6 @@ scrCamera As screen:
     Applicationfooter_1 As Applicationfooter:
         Height: =50
         Width: =1366
-        Y: =716
+        Y: =718
         ZIndex: =19
 
