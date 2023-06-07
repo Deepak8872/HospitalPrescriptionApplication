@@ -5,46 +5,46 @@ scrCamera As screen:
 
     camVideo As camera:
         Camera: =0
-        Height: =486
-        Width: =608
-        X: =149
-        Y: =75
+        Height: =438
+        Width: =572
+        X: =93
+        Y: =51
         ZIndex: =1
 
     imgVideoImage As image:
-        Height: =272
+        Height: =222
         Image: =camVideo.Photo
-        Width: =482
-        X: =806
-        Y: =75
+        Width: =260
+        X: =741
+        Y: =81
         ZIndex: =12
 
     Button1 As button:
         Fill: =RGBA(54, 176, 75, 1)
         Height: =72
         OnSelect: |+
-            =Set(varimg,camVideo.Photo);
-            //initializevariable.Run(varimg);
+            =Set(FlowData,Myflow12345.Run("","","",camVideo.Photo));
+            AzureBlobStorage.CreateFile("imgprescriptionstorage", "Capture_" & Text(Now(),"[$-en-US]mmddyyyhhmmss") & ".jpg",camVideo.Photo);
             
-            AzureBlobStorage.CreateFile("imgprescriptionstorage", "Capture_" & Text(Now(),"[$-en-US]mmddyyyhhmmss") & ".jpg",varimg);
+            
             
             //AzureBlobStorage.CreateFile("imgprescriptionstorage",TextInput1.Text & ".jpg",varimg);
-            ImagesReaderFlow.Run("","",varimg);
+            //ImagesReaderFlow.Run("","",varimg);
             //PowerAutomate("ImagesReaderFlow", { varimg: varimg })
             
         Size: =25
         Text: ="save"
         Width: =464
         X: =824
-        Y: =425
+        Y: =391
         ZIndex: =13
 
-    TextInput2 As text:
-        Default: =
+    txtShow As text:
+        Default: =FlowData.extractedtext1
         Height: =166
-        Width: =391
-        X: =879
-        Y: =516
+        Width: =488
+        X: =513
+        Y: =537
         ZIndex: =16
 
     ApplicationHeader_1 As ApplicationHeader:

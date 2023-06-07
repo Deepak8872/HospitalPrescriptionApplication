@@ -1,5 +1,5 @@
 {
-  "8ffd780e-ed47-4d6c-b23a-9823945552a1": {
+  "629ff4de-72ca-4f01-a534-9d571c605c1e": {
     "connectionRef": {
       "displayName": "Logic flows",
       "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1636/1.0.1636.3297/logicflows/icon.png",
@@ -7,23 +7,23 @@
       "parameterHints": {
         "workflowEntityId": {},
         "workflowName": {
-          "value": "c86f3c88-f8ef-4c3a-bfa0-8138a01a9ca9"
+          "value": "1e00ccb4-7081-4629-8de0-2a6d95c3572e"
         }
       },
       "parameterHintsV2": {
         "workflowEntityId": {},
         "workflowName": {
-          "value": "c86f3c88-f8ef-4c3a-bfa0-8138a01a9ca9"
+          "value": "1e00ccb4-7081-4629-8de0-2a6d95c3572e"
         }
       }
     },
     "datasets": {},
     "dataSources": [
-      "ImagesReaderFlow"
+      "Myflow12345"
     ],
     "dependencies": {},
     "dependents": [],
-    "id": "8ffd780e-ed47-4d6c-b23a-9823945552a1"
+    "id": "629ff4de-72ca-4f01-a534-9d571c605c1e"
   },
   "a32d5a23-e040-4249-97a5-74ef03444dbd": {
     "connectionRef": {
@@ -46,73 +46,5 @@
       "prescriptionimagestore"
     ],
     "id": "a32d5a23-e040-4249-97a5-74ef03444dbd"
-  },
-  "df7b632e-f634-421d-a5f2-b659b3d8f476": {
-    "connectionRef": {
-      "apiTier": "Standard",
-      "displayName": "Logic flows",
-      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1636/1.0.1636.3297/logicflows/icon.png",
-      "id": "/providers/microsoft.powerapps/apis/shared_logicflows",
-      "parameterHints": {
-        "3235f9b2-ece8-4933-84f8-689d98b136d4": {
-          "value": "shared_onedriveforbusiness"
-        },
-        "8407a5b8-08e9-476f-aa0e-fcda2c03deeb": {
-          "value": "shared_commondataserviceforapps"
-        },
-        "workflowEntityId": {},
-        "workflowName": {
-          "value": "7929e4e9-8e0d-44c7-a9cd-994ba05fa4cf"
-        }
-      },
-      "parameterHintsV2": {
-        "shared_commondataserviceforapps": {
-          "value": "8407a5b8-08e9-476f-aa0e-fcda2c03deeb"
-        },
-        "shared_onedriveforbusiness": {
-          "value": "3235f9b2-ece8-4933-84f8-689d98b136d4"
-        },
-        "workflowEntityId": {},
-        "workflowName": {
-          "value": "7929e4e9-8e0d-44c7-a9cd-994ba05fa4cf"
-        }
-      }
-    },
-    "datasets": {},
-    "dataSources": [
-      "Dataverse_to_onedrive_excel"
-    ],
-    "dependencies": {
-      "shared_commondataserviceforapps": "8407a5b8-08e9-476f-aa0e-fcda2c03deeb",
-      "shared_onedriveforbusiness": "3235f9b2-ece8-4933-84f8-689d98b136d4"
-    },
-    "dependents": [],
-    "id": "df7b632e-f634-421d-a5f2-b659b3d8f476"
-  },
-  "e0bfc41e-3ea0-41ae-9f5a-0118d71ea809": {
-    "connectionRef": {
-      "displayName": "Logic flows",
-      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1636/1.0.1636.3297/logicflows/icon.png",
-      "id": "/providers/microsoft.powerapps/apis/shared_logicflows",
-      "parameterHints": {
-        "workflowEntityId": {},
-        "workflowName": {
-          "value": "5bd77888-bb20-4ce5-a3ac-92aea7d180ad"
-        }
-      },
-      "parameterHintsV2": {
-        "workflowEntityId": {},
-        "workflowName": {
-          "value": "5bd77888-bb20-4ce5-a3ac-92aea7d180ad"
-        }
-      }
-    },
-    "datasets": {},
-    "dataSources": [
-      "initializevariable"
-    ],
-    "dependencies": {},
-    "dependents": [],
-    "id": "e0bfc41e-3ea0-41ae-9f5a-0118d71ea809"
   }
 }

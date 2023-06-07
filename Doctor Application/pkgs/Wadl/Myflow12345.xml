@@ -1,15 +1,22 @@
-<application xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:service="https://india-001.azure-apim.net/apim/logicflows" xmlns:siena="http://schemas.microsoft.com/MicrosoftProjectSiena/WADL/2014/11" siena:serviceId="ImagesReaderFlow" xmlns="http://wadl.dev.java.net/2009/02">
-  <doc title="ImagesReaderFlow" />
+<application xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:service="https://india-001.azure-apim.net/apim/logicflows" xmlns:siena="http://schemas.microsoft.com/MicrosoftProjectSiena/WADL/2014/11" siena:serviceId="Myflow12345" xmlns="http://wadl.dev.java.net/2009/02">
+  <doc title="Myflow12345" />
   <grammars>
     <jsonTypes targetNamespace="https://india-001.azure-apim.net/apim/logicflows" xmlns="http://schemas.microsoft.com/MicrosoftProjectSiena/WADL/2014/11">
       <string dtype="hyperlink" name="ManualTriggerInput_HTTP_URI_def" />
       <string name="ManualTriggerInput_HTTP_URI_1_def" />
-      <string name="ManualTriggerInput_Initializevariable_Value_def" />
+      <string name="ManualTriggerInput_HTTP_URI_2_def" />
+      <string name="ManualTriggerInput_HTTP_URI_3_def" />
       <object name="ManualTriggerInput">
         <property name="HTTP_URI" type="string" dtype="hyperlink" />
         <property name="HTTP_URI_1" type="string" />
-        <property name="Initializevariable_Value" type="string" />
+        <property name="HTTP_URI_2" type="string" />
+        <property name="HTTP_URI_3" type="string" />
       </object>
+      <string name="ResponseActionOutput_extractedtext1_def" />
+      <object name="ResponseActionOutput">
+        <property name="extractedtext1" type="string" />
+      </object>
+      <object name="Run_responses_default_def" />
     </jsonTypes>
   </grammars>
   <resources siena:authenticationProviderHref="#PowerAppAuth" base="https://india-001.azure-apim.net/apim/logicflows">
@@ -24,9 +31,13 @@
           <representation mediaType="application/json">
             <param style="plain" name="HTTP_URI" path="/HTTP_URI" type="xs:anyURI" siena:dtype="hyperlink" required="true" />
             <param style="plain" name="HTTP_URI_1" path="/HTTP_URI_1" type="xs:string" required="true" />
-            <param style="plain" name="Initializevariable_Value" path="/Initializevariable_Value" type="xs:string" required="true" />
+            <param style="plain" name="HTTP_URI_2" path="/HTTP_URI_2" type="xs:string" required="true" />
+            <param style="plain" name="HTTP_URI_3" path="/HTTP_URI_3" type="xs:string" required="true" />
           </representation>
         </request>
+        <response>
+          <representation mediaType="application/json" element="service:ResponseActionOutput" />
+        </response>
       </method>
     </resource>
   </resources>

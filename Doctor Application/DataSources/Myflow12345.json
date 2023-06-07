@@ -1,8 +1,8 @@
 [
   {
     "ApiId": "/providers/microsoft.powerapps/apis/shared_logicflows",
-    "FlowNameId": "c86f3c88-f8ef-4c3a-bfa0-8138a01a9ca9",
-    "Name": "ImagesReaderFlow",
+    "FlowNameId": "1e00ccb4-7081-4629-8de0-2a6d95c3572e",
+    "Name": "Myflow12345",
     "ServiceKind": "ConnectedWadl",
     "Type": "ServiceInfo",
     "WorkflowEntityId": null

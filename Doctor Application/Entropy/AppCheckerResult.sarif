@@ -622,19 +622,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "scrCamera.TextInput2.AccessibleLabel"
+                  "fullyQualifiedName": "scrCamera.txtShow.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "scrCamera.TextInput2.AccessibleLabel",
+                  "fullyQualifiedName": "scrCamera.txtShow.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "scrCamera",
-                "type": "scrCamera.TextInput2"
+                "type": "scrCamera.txtShow"
               }
             }
           ],
@@ -831,36 +831,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "App.tbl_Details"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "App.tbl_Details",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "tbl_Details",
-                "module": "App",
-                "type": "App"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-NotOfflineEnabledTable",
-          "ruleIndex": 7
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "App.AzureBlobStorage"
                 }
               ],
@@ -891,17 +861,17 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "App.ImagesReaderFlow"
+                  "fullyQualifiedName": "App.Myflow12345"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "App.ImagesReaderFlow",
+                  "fullyQualifiedName": "App.Myflow12345",
                   "relativeAddress": 0
                 }
               },
               "properties": {
-                "member": "ImagesReaderFlow",
+                "member": "Myflow12345",
                 "module": "App",
                 "type": "App"
               }
