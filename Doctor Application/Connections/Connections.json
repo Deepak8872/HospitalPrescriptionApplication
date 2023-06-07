@@ -1,5 +1,5 @@
 {
-  "66d0b1b5-a041-4db8-8ca6-11f663cecdc4": {
+  "8ffd780e-ed47-4d6c-b23a-9823945552a1": {
     "connectionRef": {
       "displayName": "Logic flows",
       "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1636/1.0.1636.3297/logicflows/icon.png",
@@ -23,7 +23,7 @@
     ],
     "dependencies": {},
     "dependents": [],
-    "id": "66d0b1b5-a041-4db8-8ca6-11f663cecdc4"
+    "id": "8ffd780e-ed47-4d6c-b23a-9823945552a1"
   },
   "a32d5a23-e040-4249-97a5-74ef03444dbd": {
     "connectionRef": {
@@ -46,20 +46,6 @@
       "prescriptionimagestore"
     ],
     "id": "a32d5a23-e040-4249-97a5-74ef03444dbd"
-  },
-  "a6db9fef-272e-473a-8243-04240841dc7e": {
-    "connectionRef": {
-      "displayName": "Microsoft Dataverse",
-      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1639/1.0.1639.3315/commondataserviceforapps/icon.png",
-      "id": "/providers/microsoft.powerapps/apis/shared_commondataserviceforapps"
-    },
-    "datasets": {},
-    "dataSources": [],
-    "dependencies": {},
-    "dependents": [
-      "e6782c01-4e57-470a-80c7-0ecc9a92c022"
-    ],
-    "id": "a6db9fef-272e-473a-8243-04240841dc7e"
   },
   "df7b632e-f634-421d-a5f2-b659b3d8f476": {
     "connectionRef": {
@@ -103,24 +89,18 @@
     "dependents": [],
     "id": "df7b632e-f634-421d-a5f2-b659b3d8f476"
   },
-  "e6782c01-4e57-470a-80c7-0ecc9a92c022": {
+  "e0bfc41e-3ea0-41ae-9f5a-0118d71ea809": {
     "connectionRef": {
       "displayName": "Logic flows",
       "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1636/1.0.1636.3297/logicflows/icon.png",
       "id": "/providers/microsoft.powerapps/apis/shared_logicflows",
       "parameterHints": {
-        "a6db9fef-272e-473a-8243-04240841dc7e": {
-          "value": "shared_commondataserviceforapps"
-        },
         "workflowEntityId": {},
         "workflowName": {
           "value": "5bd77888-bb20-4ce5-a3ac-92aea7d180ad"
         }
       },
       "parameterHintsV2": {
-        "shared_commondataserviceforapps": {
-          "value": "a6db9fef-272e-473a-8243-04240841dc7e"
-        },
         "workflowEntityId": {},
         "workflowName": {
           "value": "5bd77888-bb20-4ce5-a3ac-92aea7d180ad"
@@ -131,10 +111,8 @@
     "dataSources": [
       "initializevariable"
     ],
-    "dependencies": {
-      "shared_commondataserviceforapps": "a6db9fef-272e-473a-8243-04240841dc7e"
-    },
+    "dependencies": {},
     "dependents": [],
-    "id": "e6782c01-4e57-470a-80c7-0ecc9a92c022"
+    "id": "e0bfc41e-3ea0-41ae-9f5a-0118d71ea809"
   }
 }

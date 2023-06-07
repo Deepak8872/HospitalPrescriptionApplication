@@ -2,8 +2,14 @@
   <doc title="ImagesReaderFlow" />
   <grammars>
     <jsonTypes targetNamespace="https://india-001.azure-apim.net/apim/logicflows" xmlns="http://schemas.microsoft.com/MicrosoftProjectSiena/WADL/2014/11">
-      <object name="ManualTriggerInput" />
-      <object name="Run_responses_default_def" />
+      <string dtype="hyperlink" name="ManualTriggerInput_HTTP_URI_def" />
+      <string name="ManualTriggerInput_HTTP_URI_1_def" />
+      <string name="ManualTriggerInput_Initializevariable_Value_def" />
+      <object name="ManualTriggerInput">
+        <property name="HTTP_URI" type="string" dtype="hyperlink" />
+        <property name="HTTP_URI_1" type="string" />
+        <property name="Initializevariable_Value" type="string" />
+      </object>
     </jsonTypes>
   </grammars>
   <resources siena:authenticationProviderHref="#PowerAppAuth" base="https://india-001.azure-apim.net/apim/logicflows">
@@ -15,7 +21,11 @@
           <param style="query" name="api-version" type="xs:string" required="true" fixed="2015-02-01-preview">
             <doc title="The api version" />
           </param>
-          <representation mediaType="application/json" />
+          <representation mediaType="application/json">
+            <param style="plain" name="HTTP_URI" path="/HTTP_URI" type="xs:anyURI" siena:dtype="hyperlink" required="true" />
+            <param style="plain" name="HTTP_URI_1" path="/HTTP_URI_1" type="xs:string" required="true" />
+            <param style="plain" name="Initializevariable_Value" path="/Initializevariable_Value" type="xs:string" required="true" />
+          </representation>
         </request>
       </method>
     </resource>

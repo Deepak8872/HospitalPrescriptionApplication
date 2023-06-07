@@ -24,12 +24,12 @@ scrCamera As screen:
         Height: =72
         OnSelect: |+
             =Set(varimg,camVideo.Photo);
-            initializevariable.Run(varimg);
+            //initializevariable.Run(varimg);
             
             AzureBlobStorage.CreateFile("imgprescriptionstorage", "Capture_" & Text(Now(),"[$-en-US]mmddyyyhhmmss") & ".jpg",varimg);
             
             //AzureBlobStorage.CreateFile("imgprescriptionstorage",TextInput1.Text & ".jpg",varimg);
-            //ImagesReaderFlow.Run();
+            ImagesReaderFlow.Run("","",varimg);
             //PowerAutomate("ImagesReaderFlow", { varimg: varimg })
             
         Size: =25
